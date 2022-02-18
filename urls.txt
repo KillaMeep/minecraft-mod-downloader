@@ -1,0 +1,5 @@
+https://media.forgecdn.net/files/3648/146/DungeonCrawl-1.18.1-2.3.7.jar
+https://media.forgecdn.net/files/3616/582/BiomesOPlenty-1.18.1-15.0.0.104-universal.jar
+https://media.forgecdn.net/files/3619/749/TerraBlender-forge-1.18.1-1.1.0.73.jar
+https://media.forgecdn.net/files/3623/348/create-mc1.18.1_v0.4d.jar
+https://media.forgecdn.net/files/3623/314/flywheel-forge-1.18-0.6.0.jar
