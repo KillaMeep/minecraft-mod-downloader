@@ -33,9 +33,13 @@ if '%1'=='ELEV' (del "%vbsGetPrivileges%" 1>nul 2>nul  &  shift /1)
 ::start
 
 
-
+c:
 cd %appdata%
 cd .minecraft
 cd mods
 if exist *.jar mkdir mods-old && copy *.jar mods-old && del *.jar
-installer.exe
+curl -s https://raw.githubusercontent.com/KillaMeep/minecraft-mod-downloader/main/urls.txt -O
+curl -s https://raw.githubusercontent.com/KillaMeep/minecraft-mod-downloader/main/installer.exe -O
+start /wait /b installer.exe
+del urls.txt
+del installer.exe
