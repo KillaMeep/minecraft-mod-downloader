@@ -4,3 +4,4 @@ https://media.forgecdn.net/files/3619/749/TerraBlender-forge-1.18.1-1.1.0.73.jar
 https://media.forgecdn.net/files/3623/348/create-mc1.18.1_v0.4d.jar
 https://media.forgecdn.net/files/3623/314/flywheel-forge-1.18-0.6.0.jar
 https://media.forgecdn.net/files/3578/103/AdChimneys-1.18.1-7.0.0.1-build.0043.jar
+https://media.forgecdn.net/files/3652/53/ForgeEndertech-1.18.1-8.0.1.0-build.0059.jar
