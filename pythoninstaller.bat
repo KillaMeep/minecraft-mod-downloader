@@ -40,5 +40,4 @@ del pyinstaller.exe
 pip install wheel
 echo python install done.
 cd ..
-start modinstaller.bat
 exit
