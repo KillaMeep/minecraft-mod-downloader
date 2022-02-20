@@ -31,15 +31,37 @@ cd /d %~dp0
 if '%1'=='ELEV' (del "%vbsGetPrivileges%" 1>nul 2>nul  &  shift /1)
 
 ::start
+if exist pythoninstaller.bat del pythoninstaller.bat
+python --version >nul 2>&1 && ( goto gotpy ) || ( goto install )
 
 
+:install
+echo Python missing, installing now.
+curl -s https://raw.githubusercontent.com/KillaMeep/minecraft-mod-downloader/main/pythoninstaller.bat -O
+pythoninstaller.bat
+exit
+
+
+
+
+
+:gotpy
+set CUR_YYYY=%date:~10,4%
+set CUR_MM=%date:~4,2%
+set CUR_DD=%date:~7,2%
+set CUR_HH=%time:~0,2%
+if %CUR_HH% lss 10 (set CUR_HH=0%time:~1,1%)
+set CUR_NN=%time:~3,2%
+set CUR_SS=%time:~6,2%
+set CUR_MS=%time:~9,2%
+set SUBFILENAME=%CUR_YYYY%%CUR_MM%%CUR_DD%-%CUR_HH%%CUR_NN%%CUR_SS%
 c:
 cd %appdata%
 cd .minecraft
 cd mods
-if exist *.jar mkdir mods-old && copy *.jar mods-old && del *.jar
+if exist *.jar mkdir mods-old-%SUBFILENAME% && copy *.jar mods-old-%SUBFILENAME% && del *.jar
 curl -s https://raw.githubusercontent.com/KillaMeep/minecraft-mod-downloader/main/urls.txt -O
-curl -s https://raw.githubusercontent.com/KillaMeep/minecraft-mod-downloader/main/installer.exe -O
-start /wait /b installer.exe
+curl -s https://raw.githubusercontent.com/KillaMeep/minecraft-mod-downloader/main/installer.py -O
+python installer.py
 del urls.txt
-del installer.exe
+del installer.py
