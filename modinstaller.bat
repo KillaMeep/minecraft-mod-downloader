@@ -60,7 +60,7 @@ cd %appdata%
 cd .minecraft
 if not exist mods mkdir mods
 cd mods
-if exist *.jar mkdir mods-old-%SUBFILENAME% && copy *.jar mods-old-%SUBFILENAME% && del *.jar
+if exist *.jar mkdir mods-old-%SUBFILENAME% && copy *.jar mods-old-%SUBFILENAME% && del *.jar && cls
 curl -s https://raw.githubusercontent.com/KillaMeep/minecraft-mod-downloader/main/urls.txt -O
 curl -s https://raw.githubusercontent.com/KillaMeep/minecraft-mod-downloader/main/installer.py -O
 python installer.py
