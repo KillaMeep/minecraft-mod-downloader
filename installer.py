@@ -1,5 +1,6 @@
 import os
 import time
+os.system('cls')
 global dld
 with open('urls.txt') as file:
     lines = [line.rstrip() for line in file]
