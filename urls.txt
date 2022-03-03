@@ -7,4 +7,4 @@ https://media.forgecdn.net/files/3578/103/AdChimneys-1.18.1-7.0.0.1-build.0043.j
 https://media.forgecdn.net/files/3652/53/ForgeEndertech-1.18.1-8.0.1.0-build.0059.jar
 https://media.forgecdn.net/files/3662/799/wthit-forge-4.5.4.jar
 https://media.forgecdn.net/files/3599/262/jei-1.18.1-9.2.1.69.jar
-https://uca7804b7b097d1cb913997217f0.dl.dropboxusercontent.com/cd/0/get/BgttKGC7QQasfD_tUbIKBrXgkuY814w7NloKJaTFR01xPkBHJtpoz0gotPPGXNbN3xsnI6QBAL7MTPrXSHErlWJNJgDxyXaXmT_ofp5viu88ibv5NPCYn8R4oO1t2LATVSbZGY9gOIVnDbcxH22EWnbi/file?dl=1#
+https://raw.githubusercontent.com/KillaMeep/minecraft-mod-downloader/main/mods/cfm-7.0.0-pre28-mc1.18.1.jar
