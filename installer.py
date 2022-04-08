@@ -19,7 +19,7 @@ def of_check():
         total+=1
         dld+=1
         os.system('curl -s https://optifine.net/download?f=OptiFine_1.18.1_HD_U_H4.jar --output optifine.jar')
-    elif of == '' or of == 'n':
+    elif of == 'n':
         pass
     else:
         os.system('cls')
