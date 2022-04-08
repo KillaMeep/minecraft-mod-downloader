@@ -8,7 +8,7 @@ if os.name == 'nt':
     pass
 else:
     print('Cannot run on linux!')
-    exit()
+    quit()
 dld=0
 with open('urls.txt') as file:
     lines = [line.rstrip() for line in file]
