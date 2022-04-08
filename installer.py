@@ -13,7 +13,7 @@ dld=0
 with open('urls.txt') as file:
     lines = [line.rstrip() for line in file]
 total = len(lines)
-of_check():
+def of_check():
     of = input('Install Optifine? (Y/N): ').lower()
     if of == 'y':
         total+=1
@@ -24,6 +24,7 @@ of_check():
         of_check()
     else:
         pass
+of_check()
 for x in range (0,len(lines)):
     dld+=1
     os.system(f'curl -s {lines[x]} -O')
