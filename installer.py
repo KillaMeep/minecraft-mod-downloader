@@ -1,8 +1,6 @@
 import os
 import time
-global dld
 global lines
-global total
 #check system#
 if os.name == 'nt':
     pass
@@ -14,12 +12,14 @@ with open('urls.txt') as file:
     lines = [line.rstrip() for line in file]
 total = len(lines)
 def of_check():
+    global total
+    global dld
     of = input('Install Optifine? (Y/N): ').lower()
     if of == 'y':
         total+=1
         dld+=1
         os.system('curl -s https://optifine.net/download?f=OptiFine_1.18.1_HD_U_H4.jar --output optifine.jar')
-    elif of == '':
+    elif of == '' or of == 'n':
         pass
     else:
         os.system('cls')
