@@ -9,4 +9,4 @@ https://media.forgecdn.net/files/3662/799/wthit-forge-4.5.4.jar
 https://media.forgecdn.net/files/3723/913/jei-1.18.2-9.5.5.174.jar
 https://raw.githubusercontent.com/KillaMeep/minecraft-mod-downloader/main/mods/cfm-7.0.0-pre28-mc1.18.1.jar
 https://media.forgecdn.net/files/3693/992/TConstruct-1.18.1-3.4.2.60.jar
-https://media.forgecdn.net/files/2713/386/Mantle-1.12-1.3.3.55.jar
+https://media.forgecdn.net/files/3693/897/Mantle-1.18.1-1.8.37.jar
