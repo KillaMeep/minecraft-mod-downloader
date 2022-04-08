@@ -20,10 +20,10 @@ def of_check():
         dld+=1
         os.system('curl -s https://optifine.net/download?f=OptiFine_1.18.1_HD_U_H4.jar --output optifine.jar')
     elif of == '':
-        os.system(cls)
-        of_check()
-    else:
         pass
+    else:
+        os.system('cls')
+        of_check()
 of_check()
 for x in range (0,len(lines)):
     dld+=1
