@@ -44,6 +44,7 @@ exit
 
 
 :gotpy
+set scriptpath=%~dp0
 set CUR_YYYY=%date:~10,4%
 set CUR_MM=%date:~4,2%
 set CUR_DD=%date:~7,2%
@@ -62,6 +63,6 @@ if not exist modinstaller-files mkdir modinstaller-files
 if exist *.jar mkdir mods-old-%SUBFILENAME% && copy *.jar mods-old-%SUBFILENAME% && del *.jar && cls
 curl -s https://raw.githubusercontent.com/KillaMeep/minecraft-mod-downloader/main/urls.txt -O
 curl -s https://raw.githubusercontent.com/KillaMeep/minecraft-mod-downloader/main/installer.py -O
-python installer.py
+python installer.py %scriptpath%
 del urls.txt
 del installer.py

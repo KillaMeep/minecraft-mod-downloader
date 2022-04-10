@@ -1,6 +1,8 @@
 import hashlib
 import requests
 import os
+import sys
+os.chdir(str(sys.argv[1]))
 os.system('cls')
 def md5Checksum(filePath,url):
     m = hashlib.md5()
@@ -18,8 +20,6 @@ def md5Checksum(filePath,url):
         for data in r.iter_content(8192):
              m.update(data)
         return m.hexdigest()
-
-
 def update():
     os.system('del modinstaller.bat')
     os.system('curl -s https://raw.githubusercontent.com/KillaMeep/minecraft-mod-downloader/main/modinstaller.bat -O')
