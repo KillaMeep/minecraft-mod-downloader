@@ -1,6 +1,6 @@
 @echo off
 CLS
-
+updater.py
 :init
 setlocal DisableDelayedExpansion
 set "batchPath=%~0"
