@@ -2,7 +2,6 @@ import hashlib
 import requests
 import os
 import sys
-#path = str(sys.argv[1]).replace('//','/')
 path = ''
 for x in range(0,len(sys.argv)):
     if x != 0:
@@ -30,7 +29,7 @@ def update():
     os.system('del modinstaller.bat')
     os.system('curl -s https://raw.githubusercontent.com/KillaMeep/minecraft-mod-downloader/main/modinstaller.bat -O')
     print('Update complete.')
-    input('Press any key to close...')
+    input('Press any key to continue...')
     os.system('exit')
 def check_for_update():
     upd_check = input('Update available! Do you want to install it? (Y/N): ').lower()
