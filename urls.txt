@@ -10,3 +10,8 @@ https://media.forgecdn.net/files/3723/162/jei-1.18.1-9.4.1.172.jar
 https://raw.githubusercontent.com/KillaMeep/minecraft-mod-downloader/main/mods/cfm-7.0.0-pre28-mc1.18.1.jar
 https://media.forgecdn.net/files/3693/992/TConstruct-1.18.1-3.4.2.60.jar
 https://media.forgecdn.net/files/3693/897/Mantle-1.18.1-1.8.37.jar
+https://media.forgecdn.net/files/3725/854/createaddition-1.18.1-20220331a.jar
+https://media.forgecdn.net/files/3606/191/cookingforblockheads-forge-1.18.1-11.1.0.jar
+https://media.forgecdn.net/files/3655/640/HammerLib-1.18.1-18.1.11.jar
+https://media.forgecdn.net/files/3644/367/SimpleQuarry-1.18.1-18.1.4.jar
+https://media.forgecdn.net/files/3658/29/balm-2.4.3%2B0.jar
