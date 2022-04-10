@@ -8,6 +8,9 @@ else:
     print('Cannot run on linux!')
     quit()
 dld=0
+os.system('cd modinstaller-files && if not exist updater.py curl -s https://raw.githubusercontent.com/KillaMeep/minecraft-mod-downloader/main/updater.py -O')
+os.system('cd modinstaller-files && python updater.py')
+
 with open('urls.txt') as file:
     lines = [line.rstrip() for line in file]
 total = len(lines)
