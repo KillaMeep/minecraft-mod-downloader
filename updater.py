@@ -28,6 +28,7 @@ def md5Checksum(filePath,url):
 def update():
     os.system('del modinstaller.bat')
     os.system('curl -s https://raw.githubusercontent.com/KillaMeep/minecraft-mod-downloader/main/modinstaller.bat -O')
+    os.system('cls')
     input('Update complete. Press any key to continue...')
     os.system('exit')
 def check_for_update():
