@@ -1,6 +1,7 @@
 import hashlib
 import requests
 import os
+os.system('cls')
 def md5Checksum(filePath,url):
     m = hashlib.md5()
     if url==None:
@@ -18,12 +19,29 @@ def md5Checksum(filePath,url):
              m.update(data)
         return m.hexdigest()
 
+
+def update():
+    os.system('del modinstaller.bat')
+    os.system('curl -s https://raw.githubusercontent.com/KillaMeep/minecraft-mod-downloader/main/modinstaller.bat -O')
+    print('Update complete.')
+    input('Press any key to close...')
+    os.system('exit')
+def check_for_update():
+    upd_check = input('Update available! Do you want to install it? (Y/N): ').lower()
+    if upd_check == 'y':
+        update()
+    elif upd_check == 'n':
+        pass
+    else:
+        os.system('cls')
+        check_for_update()
+
 local = md5Checksum("modinstaller.bat",None)
 remote = md5Checksum(None,"https://raw.githubusercontent.com/KillaMeep/minecraft-mod-downloader/main/modinstaller.bat")
 if local != remote:
-    os.system('del modinstaller.bat')
-    os.system('curl -s https://raw.githubusercontent.com/KillaMeep/minecraft-mod-downloader/main/modinstaller.bat -O')
-    os.system('modinstaller.bat')
-    os.system('exit')
-else:
-    pass
+    check_for_update()
+
+
+
+
+
