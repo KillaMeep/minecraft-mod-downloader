@@ -1,7 +1,6 @@
 @echo off
 CLS
 
-
 :init
 setlocal DisableDelayedExpansion
 set "batchPath=%~0"
