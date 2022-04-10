@@ -2,7 +2,7 @@ import hashlib
 import requests
 import os
 import sys
-os.system('pip install --upgrade pip')
+os.system('pip install --upgrade pip --quiet')
 path = ''
 for x in range(0,len(sys.argv)):
     if x != 0:
