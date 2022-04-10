@@ -2,8 +2,14 @@ import hashlib
 import requests
 import os
 import sys
-os.chdir(str(sys.argv[1]))
-os.system('cls')
+#path = str(sys.argv[1]).replace('//','/')
+path = ''
+for x in range(0,len(sys.argv)):
+    if x != 0:
+        path += str(sys.argv[x]) + ' '
+path = path.replace("'",'')
+os.chdir(path)
+
 def md5Checksum(filePath,url):
     m = hashlib.md5()
     if url==None:
