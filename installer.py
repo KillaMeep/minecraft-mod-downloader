@@ -29,7 +29,7 @@ def of_check():
     if of == 'y':
         total+=1
         dld+=1
-        os.system('curl -s https://optifine.net/downloadx?f=OptiFine_1.18.1_HD_U_H6.jar --output optifine.jar')
+        os.system('curl -s https://raw.githubusercontent.com/KillaMeep/minecraft-mod-downloader/main/mods/OptiFine_1.18.1_HD_U_H6.jar --output optifine.jar')
     elif of == 'n':
         pass
     else:
