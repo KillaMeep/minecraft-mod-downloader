@@ -16,7 +16,7 @@ for x in range(0,len(sys.argv)):
         path += str(sys.argv[x])
 dld=0
 os.system('cd modinstaller-files && if not exist updater.py curl -s https://raw.githubusercontent.com/KillaMeep/minecraft-mod-downloader/main/updater.py -O')
-os.system(f'cd modinstaller-files && start -W python updater.py {path}')
+os.system(f'cd modinstaller-files && start /wait python updater.py {path}')
 
 with open('urls.txt') as file:
     lines = [line.rstrip() for line in file]
