@@ -44,6 +44,7 @@ exit
 
 
 :gotpy
+pip install requests
 set scriptpath=%~dp0
 set CUR_YYYY=%date:~10,4%
 set CUR_MM=%date:~4,2%
