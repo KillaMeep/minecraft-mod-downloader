@@ -16,3 +16,4 @@ https://media.forgecdn.net/files/3655/640/HammerLib-1.18.1-18.1.11.jar
 https://media.forgecdn.net/files/3644/367/SimpleQuarry-1.18.1-18.1.4.jar
 https://media.forgecdn.net/files/3658/29/balm-2.4.3%2B0.jar
 https://media.forgecdn.net/files/3630/140/refinedpipes-0.6.1.jar
+https://media.forgecdn.net/files/3739/915/FarmersDelight-1.18.1-1.0.4.jar
