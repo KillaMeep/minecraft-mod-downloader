@@ -39,7 +39,7 @@ def of_check():
 def backup_old():
     backup = input('Backup old mods? (Y/N): ').lower()
     if backup == 'y':
-        filename = time.strftime("%Y%m%d-%H%M%S")
+        filename = time.strftime("%Y%m%d%H%M%S")
         os.system(f'if exist *.jar mkdir mods-old-{filename} && copy *.jar mods-old-{filename} && del *.jar && cls')
     elif backup == 'n':
         os.system('if exist *.jar del *.jar && cls')
