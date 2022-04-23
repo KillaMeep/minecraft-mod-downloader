@@ -35,7 +35,20 @@ def of_check():
     else:
         os.system('cls')
         of_check()
+def backup_old():
+    backup = input('Backup old mods? (Y/N): ').lower()
+    if backup == 'y':
+        filename = time.strftime("%Y%m%d-%H%M%S")
+        os.system(f'mkdir mods-old-{filename}')
+        os.system(f'if exist *.jar mkdir mods-old-%SUBFILENAME% && copy *.jar mods-old-{filename} && del *.jar && cls')
+    elif backup == 'n':
+        os.system('if exist *.jar del *.jar && cls')
+    else:
+        os.system('cls')
+        backup_old()
+backup_old()
 of_check()
+
 for x in range (0,len(lines)):
     dld+=1
     os.system(f'curl -s {lines[x]} -O')
