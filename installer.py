@@ -30,7 +30,6 @@ def of_check():
         total+=1
         dld+=1
         os.system('curl -s https://raw.githubusercontent.com/KillaMeep/minecraft-mod-downloader/main/mods/OptiFine_1.18.1_HD_U_H6.jar --output optifine.jar')
-        print(f'Backup successful. Saved mods to "mods-old-{filename}"')
     elif of == 'n':
         pass
     else:
@@ -41,6 +40,7 @@ def backup_old():
     if backup == 'y':
         filename = time.strftime("%Y%m%d%H%M%S")
         os.system(f'if exist *.jar mkdir mods-old-{filename} && copy *.jar mods-old-{filename} && del *.jar && cls')
+        print(f'Backup successful. Saved mods to "mods-old-{filename}"')
     elif backup == 'n':
         os.system('if exist *.jar del *.jar && cls')
     else:
