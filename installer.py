@@ -30,7 +30,7 @@ def of_check():
         total+=1
         dld+=1
         os.system('curl -s https://raw.githubusercontent.com/KillaMeep/minecraft-mod-downloader/main/mods/OptiFine_1.18.1_HD_U_H6.jar --output optifine.jar')
-        print('Backup successful. Saved mods to "mods-old-{filename}"')
+        print(f'Backup successful. Saved mods to "mods-old-{filename}"')
     elif of == 'n':
         pass
     else:
