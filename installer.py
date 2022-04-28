@@ -2,6 +2,7 @@ import os
 import time
 import sys
 global lines
+import progressbar
 #check system#
 if os.name == 'nt':
     pass
@@ -48,10 +49,10 @@ def backup_old():
         backup_old()
 backup_old()
 of_check()
-
-for x in range (0,len(lines)):
-    dld+=1
-    os.system(f'curl -s {lines[x]} -O')
-    print(f'Downloading {dld}/{total}',end='\r',flush=True)
+with progressbar.ProgressBar(max_value=len(urls)) as bar:
+    for x in range (0,len(lines)):
+        dld+=1
+        bar.update(x)
+        os.system(f'curl -s {lines[x]} -O')
 print(f'Done! Downloaded {dld}/{total} mods!')
 time.sleep(5)
