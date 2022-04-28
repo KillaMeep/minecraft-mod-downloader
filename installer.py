@@ -49,7 +49,7 @@ def backup_old():
         backup_old()
 backup_old()
 of_check()
-with progressbar.ProgressBar(max_value=len(urls)) as bar:
+with progressbar.ProgressBar(max_value=len(lines)) as bar:
     for x in range (0,len(lines)):
         dld+=1
         bar.update(x)
