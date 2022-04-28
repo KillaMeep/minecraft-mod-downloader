@@ -45,6 +45,7 @@ exit
 
 :gotpy
 pip install requests --quiet
+pip install progressbar2 --quiet
 set scriptpath=%~dp0
 c:
 cd %appdata%
