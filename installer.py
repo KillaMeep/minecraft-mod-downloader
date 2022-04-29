@@ -1,13 +1,15 @@
 import os
 import time
 import sys
-os.system('cd modinstaller-files && if not exist updater.py curl -s https://raw.githubusercontent.com/KillaMeep/minecraft-mod-downloader/main/updater.py -O')
-os.system(f'cd modinstaller-files && start /wait /b python updater.py {path}')
+#update the shit
 path = ''
 for x in range(0,len(sys.argv)):
     if x != 0:
         path += str(sys.argv[x]) + ' '
 path = path.replace("'",'')
+os.system('cd modinstaller-files && if not exist updater.py curl -s https://raw.githubusercontent.com/KillaMeep/minecraft-mod-downloader/main/updater.py -O')
+os.system(f'cd modinstaller-files && start /wait /b python updater.py {path}')
+
 global lines
 import progressbar
 #check system#
