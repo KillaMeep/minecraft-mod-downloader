@@ -9,7 +9,17 @@ if os.name == 'nt':
 else:
     print('Cannot run on linux!')
     quit()
+
+
+path = ''
+for x in range(0,len(sys.argv)):
+    if x != 0:
+        path += str(sys.argv[x]) + ' '
+path = path.replace("'",'')
 dld=0
+os.system('cd modinstaller-files && if not exist updater.py curl -s https://raw.githubusercontent.com/KillaMeep/minecraft-mod-downloader/main/updater.py -O')
+os.system(f'cd modinstaller-files && start /wait /b python updater.py {path}')
+
 with open('urls.txt') as file:
     lines = [line.rstrip() for line in file]
 total = len(lines)
