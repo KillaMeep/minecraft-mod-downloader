@@ -54,8 +54,10 @@ if not exist mods mkdir mods
 cd mods
 if exist modinstaller-files rmdir /Q /S modinstaller-files 
 mkdir modinstaller-files
+cd modinstaller-files && if not exist updater.py curl -s https://raw.githubusercontent.com/KillaMeep/minecraft-mod-downloader/main/updater.py -O
 curl -s https://raw.githubusercontent.com/KillaMeep/minecraft-mod-downloader/main/urls.txt -O
 curl -s https://raw.githubusercontent.com/KillaMeep/minecraft-mod-downloader/main/installer.py -O
-python installer.py %scriptpath%
+python modinstaller-files/updater.py %scriptpath%
+python installer.py
 del urls.txt
 del installer.py
