@@ -10,6 +10,12 @@ path = path.replace("'",'')
 os.system('cd modinstaller-files && if not exist updater.py curl -s https://raw.githubusercontent.com/KillaMeep/minecraft-mod-downloader/main/updater.py -O')
 os.system(f'cd modinstaller-files && start /wait /b python updater.py {path}')
 
+#actually start code here, so it doesnt conflict with the updater!!!!!
+
+
+
+
+
 global lines
 import progressbar
 #check system#
