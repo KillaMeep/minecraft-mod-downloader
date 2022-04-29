@@ -9,7 +9,7 @@ for x in range(0,len(sys.argv)):
         path += str(sys.argv[x]) + ' '
 path = path.replace("'",'')
 os.chdir(path)
-
+os.system(f'cd modinstaller-files && start /wait /b python updater.py {path}')
 def md5Checksum(filePath,url):
     m = hashlib.md5()
     if url==None:
@@ -46,8 +46,3 @@ local = md5Checksum("modinstaller.bat",None)
 remote = md5Checksum(None,"https://raw.githubusercontent.com/KillaMeep/minecraft-mod-downloader/main/modinstaller.bat")
 if local != remote:
     check_for_update()
-
-
-
-
-
