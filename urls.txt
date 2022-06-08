@@ -17,3 +17,7 @@ https://media.forgecdn.net/files/3644/367/SimpleQuarry-1.18.1-18.1.4.jar
 https://media.forgecdn.net/files/3658/29/balm-2.4.3%2B0.jar
 https://media.forgecdn.net/files/3630/140/refinedpipes-0.6.1.jar
 https://media.forgecdn.net/files/3739/915/FarmersDelight-1.18.1-1.0.4.jar
+https://media.forgecdn.net/files/3630/725/Patchouli-1.18.1-65.jar
+https://media.forgecdn.net/files/3576/36/ZeroCore2-1.18.1-2.1.11.jar
+https://media.forgecdn.net/files/3603/643/ExtremeReactors2-1.18.1-2.0.38.jar
+https://media.forgecdn.net/files/3632/972/Beyond-Earth-1.18.1-6.0d.jar
