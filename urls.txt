@@ -2,3 +2,4 @@ https://mediafiles.forgecdn.net/files/3864/189/ForgeEndertech-1.18.2-9.0.4.0-bui
 https://mediafiles.forgecdn.net/files/3872/145/create-mc1.18.2_v0.5.0c.jar
 https://mediafiles.forgecdn.net/files/3871/82/flywheel-forge-1.18-0.6.4.jar
 https://mediafiles.forgecdn.net/files/3864/196/AdChimneys-1.18.2-8.3.0.0-build.1016.jar
+https://mediafiles.forgecdn.net/files/3847/103/jei-1.18.2-9.7.0.209.jar
