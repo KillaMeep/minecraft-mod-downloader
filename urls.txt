@@ -1,5 +1,12 @@
-https://mediafiles.forgecdn.net/files/3864/189/ForgeEndertech-1.18.2-9.0.4.0-build.1016.jar
-https://mediafiles.forgecdn.net/files/3872/145/create-mc1.18.2_v0.5.0c.jar
-https://mediafiles.forgecdn.net/files/3871/82/flywheel-forge-1.18-0.6.4.jar
-https://mediafiles.forgecdn.net/files/3864/196/AdChimneys-1.18.2-8.3.0.0-build.1016.jar
-https://mediafiles.forgecdn.net/files/3847/103/jei-1.18.2-9.7.0.209.jar
+https://mediafilez.forgecdn.net/files/4174/330/create-1.19.2-0.5.0.g.jar
+https://mediafilez.forgecdn.net/files/4174/759/flywheel-forge-1.19.2-0.6.8.jar
+https://mediafilez.forgecdn.net/files/4030/504/AdChimneys-1.19.2-9.1.6.0-build.0629.jar
+https://mediafilez.forgecdn.net/files/4090/703/wthit-forge-5.13.4.jar
+https://mediafilez.forgecdn.net/files/4073/854/badpackets-forge-0.2.1.jar
+https://mediafilez.forgecdn.net/files/4239/206/jei-1.19.2-forge-11.5.0.297.jar
+https://mediafilez.forgecdn.net/files/4041/164/Mekanism-1.19.2-10.3.5.473.jar
+https://mediafilez.forgecdn.net/files/4041/168/MekanismGenerators-1.19.2-10.3.5.473.jar
+https://mediafilez.forgecdn.net/files/4041/169/MekanismTools-1.19.2-10.3.5.473.jar
+https://mediafilez.forgecdn.net/files/4055/331/cookingforblockheads-forge-1.19.2-13.3.0.jar
+https://mediafilez.forgecdn.net/files/3953/904/ForgeEndertech-1.19.2-10.0.5.0-build.0599.jar
+https://mediafilez.forgecdn.net/files/3914/527/balm-4.5.3.jar
