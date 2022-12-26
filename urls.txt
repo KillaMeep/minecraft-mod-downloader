@@ -10,5 +10,5 @@ https://mediafilez.forgecdn.net/files/4041/169/MekanismTools-1.19.2-10.3.5.473.j
 https://mediafilez.forgecdn.net/files/4055/331/cookingforblockheads-forge-1.19.2-13.3.0.jar
 https://mediafilez.forgecdn.net/files/3953/904/ForgeEndertech-1.19.2-10.0.5.0-build.0599.jar
 https://mediafilez.forgecdn.net/files/3914/527/balm-4.5.3.jar
-https://mediafilez.forgecdn.net/files/4211/966/Aquaculture-1.19.3-2.4.9.jar
+https://mediafilez.forgecdn.net/files/4074/684/Aquaculture-1.19.2-2.4.8.jar
 https://mediafilez.forgecdn.net/files/3999/157/FarmersDelight-1.19-1.2.0.jar
