@@ -46,6 +46,7 @@ exit
 :gotpy
 pip install requests --quiet
 pip install progressbar2 --quiet
+pip install pyperclip --quiet
 set scriptpath=%~dp0
 c:
 cd %appdata%
