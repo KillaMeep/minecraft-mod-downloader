@@ -44,7 +44,7 @@ exit
 
 
 :gotpy
-python -m pip install --upgrade pip
+python -m pip install --upgrade pip --quiet
 pip install requests --quiet
 pip install progressbar2 --quiet
 pip install pyperclip --quiet
