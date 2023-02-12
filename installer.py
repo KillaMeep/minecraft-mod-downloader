@@ -2,6 +2,7 @@ import os
 import time
 import sys
 import socket
+import pyperclip
 #update the shit
 path = ''
 for x in range(0,len(sys.argv)):
@@ -61,6 +62,10 @@ with progressbar.ProgressBar(max_value=total) as bar:
         bar.update(dld)
         os.system(f'curl -s {lines[x]} -O')
 print(f'Done! Downloaded {dld}/{total} mods!')
-addr = socket.gethostbyname('polar.crabdance.com')+":25565"
+addr = str(socket.gethostbyname('polar.crabdance.com'))":25565"
 print("Current Server IP: "+addr)
-time.sleep(10)
+ipcheck = input("Copy to clipboard? (Y/N): ").lower()
+if ipcheck == 'y':
+    pyperclip.copy(addr)
+    print("Ok, Copied!")
+time.sleep(5)
