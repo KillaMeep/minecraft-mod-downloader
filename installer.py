@@ -62,7 +62,7 @@ with progressbar.ProgressBar(max_value=total) as bar:
         bar.update(dld)
         os.system(f'curl -s {lines[x]} -O')
 print(f'Done! Downloaded {dld}/{total} mods!')
-addr = str(socket.gethostbyname('polar.crabdance.com'))":25565"
+addr = str(socket.gethostbyname('polar.crabdance.com'))+":25565"
 print("Current Server IP: "+addr)
 ipcheck = input("Copy to clipboard? (Y/N): ").lower()
 if ipcheck == 'y':
