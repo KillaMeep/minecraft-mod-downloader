@@ -12,3 +12,13 @@ https://mediafilez.forgecdn.net/files/3953/904/ForgeEndertech-1.19.2-10.0.5.0-bu
 https://mediafilez.forgecdn.net/files/3914/527/balm-4.5.3.jar
 https://mediafilez.forgecdn.net/files/4074/684/Aquaculture-1.19.2-2.4.8.jar
 https://mediafilez.forgecdn.net/files/3999/157/FarmersDelight-1.19-1.2.0.jar
+https://mediafilez.forgecdn.net/files/4181/377/geckolib-forge-1.19-3.1.39.jar
+https://mediafilez.forgecdn.net/files/3871/792/supermartijn642configlib-1.1.6b-forge-mc1.19.jar
+https://mediafilez.forgecdn.net/files/4205/732/TerraBlender-forge-1.19.2-2.0.1.136.jar
+https://mediafilez.forgecdn.net/files/4393/118/supermartijn642corelib-1.1.2-forge-mc1.19.jar
+https://mediafilez.forgecdn.net/files/4388/795/wirelesschargers-1.0.8-forge-mc1.19.jar
+https://mediafilez.forgecdn.net/files/4380/998/clayworks-1.19.2-2.0.0.jar
+https://mediafilez.forgecdn.net/files/4019/850/blueprint-1.19.2-6.1.0.jar
+https://mediafilez.forgecdn.net/files/3930/809/naturalist-forge-2.1.1-1.19.2.jar
+https://mediafilez.forgecdn.net/files/4377/412/createaddition-1.19.2-20230202b.jar
+https://mediafilez.forgecdn.net/files/4128/419/BiomesOPlenty-1.19.2-17.1.2.492.jar
